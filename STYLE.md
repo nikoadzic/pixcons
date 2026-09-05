@@ -11,7 +11,9 @@ Every icon follows these rules so the set reads as one family.
 
 ## Palette
 
-Only the 32 colors of Endesga 32 (`palette/endesga-32.hex`). The build refuses anything else.
+Endesga 32 (`palette/endesga-32.hex`) plus a few gap-filler ramps in `palette/extra.hex`.
+The build refuses anything else. A ramp is added to `extra.hex` only when a brand hue has no
+usable match in Endesga, and always as three steps, light, base and dark.
 Think in ramps, light to dark, and pick neighbours from the same ramp for highlight, fill, shade and outline.
 
 | Ramp | Light to dark |
@@ -23,9 +25,10 @@ Think in ramps, light to dark, and pick neighbours from the same ramp for highli
 | Green | `63c74d` `3e8948` `265c42` `193c3e` |
 | Blue, cyan | `2ce8f5` `0099db` `124e89` `262b44` |
 | Brown, skin | `ead4aa` `e8b796` `e4a672` `c28569` `d77643` `b86f50` `733e39` `3e2731` |
+| Violet (extra) | `8b94f7` `5865f2` `3c45a5` |
 
-Brand colors get translated to the nearest ramp, never approximated with an off-palette color.
-Discord is blue, not blurple. That is the charm.
+Brand colors get translated to the nearest ramp. If no ramp is close, the brand color becomes
+a new ramp in `extra.hex` rather than a one-off. Discord's blurple was the first.
 
 ## Outline
 

@@ -1,0 +1,6 @@
+# Gap-filler ramps added on top of Endesga 32. Add a new ramp only when a
+# brand hue has no usable match in Endesga, always as light / base / dark.
+# violet, from Discord blurple
+8b94f7
+5865f2
+3c45a5

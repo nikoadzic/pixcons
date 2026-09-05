@@ -15,7 +15,7 @@ Pixcons/                  the icon theme, link or pack this folder
   scalable/<context>/     generated SVGs, one per icon, plus alias symlinks
 src/<context>/*.pix       the actual sources, 16 line text grids
 src/aliases.txt           extra names that point at an existing icon
-palette/endesga-32.hex    the only colors allowed
+palette/*.hex             the only colors allowed, Endesga 32 plus gap fillers
 scripts/pixbuild.py       .pix to SVG and PNG preview
 scripts/build.sh          rebuild everything and create aliases
 templates/icon.pix        blank canvas to copy

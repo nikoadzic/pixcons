@@ -1,7 +1,8 @@
-# discord: the Clyde controller face, blue since Endesga has no blurple
-O 124e89
-B 0099db
-H 2ce8f5
+# discord: the Clyde controller face in real blurple, the first violet ramp
+# in palette/extra.hex.
+O 3c45a5
+B 5865f2
+H 8b94f7
 W ffffff
 ................
 ................

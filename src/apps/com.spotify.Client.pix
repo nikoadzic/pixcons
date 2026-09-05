@@ -1,21 +1,24 @@
-# spotify: green disc with three sound arcs
+# spotify: green disc, three thin symmetric sound arcs. Lit from above:
+# outline one step darker on the upper half, two steps darker on the lower
+# half, one shade row at the bottom.
+T 3e8948
 O 265c42
-G 3e8948
-H 63c74d
+G 63c74d
 K 181425
+S 3e8948
 ................
-.....OOOOOO.....
-...OOHHHHHHOO...
-..OHHGGGGGGHHO..
-..OHGGGGGGGGHO..
-.OGGGKKKKKKGGGO.
-.OGGKGGGGGGKGGO.
+.....TTTTTT.....
+....TGGGGGGT....
+...TGGGGGGGGT...
+..TGGGGGGGGGGT..
+..TGGKKKKKKGGT..
+.TGGKGGGGGGKGGT.
 .OGGGGGGGGGGGGO.
 .OGGGGKKKKGGGGO.
 .OGGGKGGGGKGGGO.
-.OGGGGGGGGGGGGO.
+..OGGGGGGGGGGO..
 ..OGGGGKKGGGGO..
-..OGGGKGGKGGGO..
-...OOGGGGGGOO...
+...OGGKGGKGGO...
+....OSSSSSSO....
 .....OOOOOO.....
 ................

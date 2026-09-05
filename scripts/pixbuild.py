@@ -16,7 +16,9 @@ LEGEND_RE = re.compile(r"^(\S)\s+#?([0-9a-fA-F]{6})\s*$")
 
 
 def load_palette(path):
-    return {l.strip().lstrip("#").lower() for l in Path(path).read_text().splitlines()
+    """Load every .hex file in a directory, or a single .hex file."""
+    files = sorted(Path(path).glob("*.hex")) if Path(path).is_dir() else [Path(path)]
+    return {l.strip().lstrip("#").lower() for f in files for l in f.read_text().splitlines()
             if l.strip() and not l.startswith("#")}
 
 
@@ -81,7 +83,8 @@ def to_png(rows, legend, size, scale, bg, out):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pix", nargs="+", type=Path)
-    ap.add_argument("--palette", type=Path, default=Path(__file__).resolve().parent.parent / "palette/endesga-32.hex")
+    ap.add_argument("--palette", type=Path, default=Path(__file__).resolve().parent.parent / "palette",
+                    help="a .hex file or a directory of them, default palette/")
     ap.add_argument("--svg", type=Path, help="directory to write <name>.svg into")
     ap.add_argument("--preview", type=Path, help="directory to write <name>.png previews into")
     ap.add_argument("--scale", type=int, default=8)
