@@ -1,0 +1,37 @@
+# thunderbird: a blue envelope seen flap down. The flap is a filled 4b9bea triangle
+# meeting the body in a 0a4a8f fold line, which is what gives the icon depth. An older
+# version drew the fold as a white V on a flat body and read as a generic mail glyph.
+# Body stays on the extra blue ramp (4b9bea, 0e70d3, 0a4a8f) so it does not collide with
+# vscode and the file manager, both of which sit on 0099db and 124e89. Top row is the
+# lighter step for the light from above, bottom row the darker one.
+#
+# Size is the hard part here, not the shape. Full width but only 11 rows tall, 67 percent
+# of the canvas filled. A solid rectangle reads heavier than a disc of the same area, so
+# it has to sit below Spotify and Discord (81 percent) to look like an equal in the panel
+# row. A 14 row version at 86 percent was the heaviest thing on the panel, 12 rows still
+# read big, 14x11 at 59 percent went too far and flattened the fold. The fold drops 4 rows
+# over the half width so it still closes in the middle without eating the body.
+#
+# Rejected: the bird, as a head profile and as a white silhouette on a disc, both collapse
+# into a blob at 16px. A two tone disc read as a crescent moon. A white sheet sticking out
+# of a blue pocket was distinctive but looked like a printer.
+A 4b9bea
+B 0a4a8f
+C 0e70d3
+D 181425
+................
+................
+................
+.CCCCCCCCCCCCCC.
+CAAAAAAAAAAAAAAC
+DBAAAAAAAAAAAABD
+BCBBAAAAAAAABBCB
+BCCCBAAAAAABCCCB
+BCCCCBBAABBCCCCB
+BCCCCCCBBCCCCCCB
+BCCCCCCCCCCCCCCB
+BCCCCCCCCCCCCCCB
+DBBBBBBBBBBBBBBD
+.DDDDDDDDDDDDDD.
+................
+................
