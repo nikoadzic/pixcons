@@ -1,0 +1,26 @@
+# utilities-terminal: a terminal window seen straight on. Two row titlebar lit
+# from above, dark navy screen, grey shell prompt from the same ramp as the
+# titlebar. The chevron is 2px thick so it survives 16px in the panel, the
+# underscore sits on its lower tip. Grey rather than a phosphor green, which
+# would collide with the Spotify icon.
+A 5a6988
+B 3a4466
+C 262b44
+D c0cbdc
+E 181425
+................
+.EEEEEEEEEEEEEE.
+EAAAAAAAAAAAAAAE
+EBBBBBBBBBBBBBBE
+ECCCCCCCCCCCCCCE
+ECCCCCCCCCCCCCCE
+ECCDDCCCCCCCCCCE
+ECCCDDCCCCCCCCCE
+ECCCCDDCCCCCCCCE
+ECCCDDCCCCCCCCCE
+ECCDDCCCDDDDDCCE
+ECCCCCCCCCCCCCCE
+ECCCCCCCCCCCCCCE
+ECCCCCCCCCCCCCCE
+.EEEEEEEEEEEEEE.
+................

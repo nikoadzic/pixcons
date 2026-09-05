@@ -6,3 +6,7 @@ apps discord com.discordapp.Discord
 apps code vscode
 apps com.visualstudio.code vscode
 apps visual-studio-code vscode
+apps konsole utilities-terminal
+apps org.kde.konsole utilities-terminal
+apps terminal utilities-terminal
+apps org.gnome.Terminal utilities-terminal
