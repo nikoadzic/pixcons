@@ -28,6 +28,7 @@ Think in ramps, light to dark, and pick neighbours from the same ramp for highli
 | Brown, skin | `ead4aa` `e8b796` `e4a672` `c28569` `d77643` `b86f50` `733e39` `3e2731` |
 | Violet (extra) | `8b94f7` `5865f2` `3c45a5` |
 | Blue (extra) | `4b9bea` `0e70d3` `0a4a8f` |
+| Orange red (extra) | `ff8a4c` `fb4d0d` `a32f0a` |
 
 Brand colors get translated to the nearest ramp. If no ramp is close, the brand color becomes
 a new ramp in `extra.hex` rather than a one-off. Discord's blurple was the first.
