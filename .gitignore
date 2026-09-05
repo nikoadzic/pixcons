@@ -1,4 +1,5 @@
 *.tar.gz
-*.png
+preview/
+__pycache__/
 .directory
 Thumbs.db

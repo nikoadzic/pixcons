@@ -1,44 +1,58 @@
 # Pixcons
 
-A personal KDE Plasma icon theme. It inherits from Breeze Dark and only contains
-the icons that were drawn by hand, so everything else keeps its default look.
+A personal 16 by 16 pixel art icon theme for KDE Plasma. It inherits from Breeze Dark,
+so only the icons drawn here change and everything else keeps its default look.
+
+Drawn in the Endesga 32 palette with selective outlines and free silhouettes.
+See [STYLE.md](STYLE.md) for the rules. Inspired by
+[pixora-icons](https://github.com/tsora1603/pixora-icons), drawn from scratch.
 
 ## Layout
 
 ```
-Pixcons/            the icon theme itself (this folder gets linked or packed)
-  index.theme       theme metadata, directory list and sizes
-  apps/48/          application icons, 48x48 SVG, colorful
-  places/48/        folder and location icons, 48x48 SVG
-  actions/22/       monochrome toolbar and menu icons, 22x22 SVG
-templates/          starting points for new icons
-install.sh          links the theme into ~/.local/share/icons
+Pixcons/                  the icon theme, link or pack this folder
+  index.theme             theme metadata
+  scalable/<context>/     generated SVGs, one per icon, plus alias symlinks
+src/<context>/*.pix       the actual sources, 16 line text grids
+src/aliases.txt           extra names that point at an existing icon
+palette/endesga-32.hex    the only colors allowed
+scripts/pixbuild.py       .pix to SVG and PNG preview
+scripts/build.sh          rebuild everything and create aliases
+templates/icon.pix        blank canvas to copy
+install.sh                symlink the theme into ~/.local/share/icons
 ```
 
-## Use it locally
+Contexts are `apps`, `places`, `mimetypes`, `categories` and `devices`.
+
+## Use it
 
 ```
 ./install.sh --restart
 ```
 
-Then pick Pixcons under System Settings, Appearance, Icons. Because the theme is
-a symlink into this repo, saving an SVG in Inkscape is enough to see the change
-after a cache clear.
+Then pick Pixcons under System Settings, Appearance, Icons. The theme folder is a symlink
+into this repo, so after `scripts/build.sh` a cache clear is enough to see new icons.
 
-## Add an icon
+## Draw an icon
 
-1. Find the name of the icon you want to replace, for example with
-   `ls /usr/share/icons/breeze-dark/apps/48/` or the Cuttlefish app.
-2. Copy the matching template from `templates/` into the right folder and rename
-   it to that icon name, for example `Pixcons/apps/48/firefox.svg`.
-3. Draw it in Inkscape and save as Plain SVG.
-4. Clear the cache with `rm ~/.cache/icon-cache.kcache` and restart Plasma.
+A `.pix` file is a legend followed by the grid:
+
+```
+O 733e39
+Y feae34
+................
+.OYYYYYYYYYYYYO.
+...
+```
+
+Each legend line maps one character to a palette color, `.` is transparent.
+Build with `scripts/build.sh --preview` and check the PNG in `preview/`.
 
 ## Pack for sharing
 
 ```
-tar czf pixcons.tar.gz Pixcons
+tar czhf pixcons.tar.gz Pixcons
 ```
 
-The archive can be installed on any Plasma machine through Install from File in
-the Icons settings page.
+The `h` flag turns the alias symlinks into real files. Install the archive on any Plasma
+machine through Install from File in the Icons settings page.

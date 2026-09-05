@@ -1,25 +1,41 @@
 [Icon Theme]
 Name=Pixcons
-Comment=Hand-made icons layered on top of Breeze Dark
+Comment=16 by 16 pixel art icons layered on top of Breeze Dark
 Inherits=breeze-dark,breeze,hicolor
 Example=folder
-Directories=apps/48,places/48,actions/22
+Directories=scalable/apps,scalable/places,scalable/mimetypes,scalable/categories,scalable/devices
 
-[apps/48]
-Size=48
+[scalable/apps]
+Size=16
 Type=Scalable
-MinSize=16
+MinSize=8
 MaxSize=512
 Context=Applications
 
-[places/48]
-Size=48
+[scalable/places]
+Size=16
 Type=Scalable
-MinSize=16
+MinSize=8
 MaxSize=512
 Context=Places
 
-[actions/22]
-Size=22
-Type=Fixed
-Context=Actions
+[scalable/mimetypes]
+Size=16
+Type=Scalable
+MinSize=8
+MaxSize=512
+Context=MimeTypes
+
+[scalable/categories]
+Size=16
+Type=Scalable
+MinSize=8
+MaxSize=512
+Context=Categories
+
+[scalable/devices]
+Size=16
+Type=Scalable
+MinSize=8
+MaxSize=512
+Context=Devices

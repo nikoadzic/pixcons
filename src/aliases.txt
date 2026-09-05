@@ -1,0 +1,5 @@
+# Extra icon names that should show the same drawing.
+# Format: <context> <alias> <existing icon name>
+apps spotify com.spotify.Client
+apps spotify-client com.spotify.Client
+apps discord com.discordapp.Discord
