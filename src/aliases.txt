@@ -3,3 +3,6 @@
 apps spotify com.spotify.Client
 apps spotify-client com.spotify.Client
 apps discord com.discordapp.Discord
+apps code vscode
+apps com.visualstudio.code vscode
+apps visual-studio-code vscode
