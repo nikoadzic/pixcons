@@ -1,23 +1,23 @@
-# vscode: the folded blue ribbon. Arms cross at the left third so the hollow
-# towards the bar stays open. Cyan upper arm in front, azure lower arm, slim
-# bar with a dark shadow column, folded hooks at the left ends.
-A 0099db
-B 2ce8f5
-C 124e89
-D 262b44
-................
-...........CC...
-.........CCAAD..
-........CAAAACD.
-.CC....CAACAACD.
-CBBC..CAACCAACD.
-CBBBCCAAC.CAACD.
-.CCBBAAC..CAACD.
-...CBBC...CAACD.
-.CCAABBC..CAACD.
-CAAACCBBC.CAACD.
-CAAC..CBBCCAACD.
-.CC....CBBCAACD.
-........CBBAAD..
-.........CCCC...
-................
+# vscode: the folded blue ribbon, edge to edge. Arms cross at the left third so
+# the hollow towards the bar stays open. Cyan upper arm in front, azure lower
+# arm, slim bar with a dark shadow column, folded hooks at the left ends.
+A 124e89
+B 0099db
+C 262b44
+D 2ce8f5
+...........ABBC.
+..........ABBBAC
+.........ABBBBAC
+.BB.....ABBABBAC
+BDDB...ABBAABBAC
+BDDDB.ABBA.ABBAC
+.BBDDABBA..ABBAC
+...BDDBA...ABBAC
+...ABDDB...ABBAC
+.AABBADDB..ABBAC
+ABBBA.BDDB.ABBAC
+ABBA...BDDBABBAC
+.AA.....BDDABBAC
+.........BDDBBAC
+..........BDBBAC
+...........ABBC.

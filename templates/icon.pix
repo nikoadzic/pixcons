@@ -1,6 +1,6 @@
-# Copy to src/<context>/<icon-name>.pix and draw inside the 14x14 area.
+# Copy to src/<context>/<icon-name>.pix and draw edge to edge on the 16x16 grid.
 # Legend: one "char hex" per line, colors from palette/endesga-32.hex only.
-# "." is transparent. Keep the outer 1px ring empty.
+# "." is transparent.
 O 181425
 X 8b9bb4
 ................

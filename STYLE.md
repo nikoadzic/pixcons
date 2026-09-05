@@ -5,7 +5,8 @@ Every icon follows these rules so the set reads as one family.
 ## Canvas
 
 - 16 by 16 pixels, drawn as a `.pix` text grid in `src/<context>/<icon-name>.pix`.
-- The outer 1 px ring stays transparent, so the drawing lives in the inner 14 by 14 area.
+- Draw edge to edge. The outline may touch the canvas border, there is no safety margin,
+  otherwise icons look smaller than their Breeze neighbours in the panel.
 - Icon names are the freedesktop names an app asks for, for example `folder`,
   `com.spotify.Client` or `firefox`. Extra names for the same drawing go into `src/aliases.txt`.
 
@@ -47,8 +48,8 @@ a new ramp in `extra.hex` rather than a one-off. Discord's blurple was the first
 ## Shape
 
 - Free silhouettes. Redraw the logo from scratch at this size, do not shrink the original.
-- Ask what each pixel stands for. With 196 pixels every one carries a part of the picture.
-- Fill the 14 by 14 area as far as the shape allows so icons have similar visual weight.
+- Ask what each pixel stands for. With 256 pixels every one carries a part of the picture.
+- Fill the canvas as far as the shape allows so icons have similar visual weight.
 
 ## Workflow
 

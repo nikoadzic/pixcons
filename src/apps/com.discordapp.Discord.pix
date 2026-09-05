@@ -1,22 +1,22 @@
-# discord: the Clyde controller face in real blurple, the first violet ramp
-# in palette/extra.hex.
-O 3c45a5
-B 5865f2
-H 8b94f7
-W ffffff
-................
-................
-................
-..OO........OO..
-.OBBOOOOOOOOBBO.
-.OBHHHHHHHHHHBO.
-.OBBBBBBBBBBBBO.
-.OBBWWBBBBWWBBO.
-.OBBWWBBBBWWBBO.
-.OBBBBBBBBBBBBO.
-.OBBBBBBBBBBBBO.
-..OBBBBBBBBBBO..
-...OBBOOOOBBO...
-....OO....OO....
-................
-................
+# discord: blurple disc with the white Clyde face, like the real app icon.
+# Violet ramp from palette/extra.hex, highlight ring at the top, shade at the bottom.
+A 3c45a5
+B 8b94f7
+C 5865f2
+D ffffff
+.....AAAAAA.....
+...AABBBBBBAA...
+..ACCCCCCCCCCA..
+.ACCCCCCCCCCCCA.
+.ACCDDCCCCDDCCA.
+ACCDDDDDDDDDDCCA
+ACCDDCCDDCCDDCCA
+ACCDDCCDDCCDDCCA
+ACCDDCCDDCCDDCCA
+ACCDDDDDDDDDDCCA
+ACCCDDDDDDDDCCCA
+.ACCDDCCCCDDCCA.
+.ACCCCCCCCCCCCA.
+..ACCCCCCCCCCA..
+...AAAAAAAAAA...
+.....AAAAAA.....
