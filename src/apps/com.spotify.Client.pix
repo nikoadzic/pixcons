@@ -1,6 +1,12 @@
 # spotify: green disc, three thin symmetric sound arcs. Lit from above:
 # outline one step darker on the upper half, two steps darker on the lower
 # half, one shade row at the bottom.
+#
+# The bottom arc used to sit one pixel right of centre, left over from the
+# edge-to-edge pass that widened the disc and dragged the arcs along with it.
+# All three arcs are now centred on the same axis as the disc. Nikola chose this
+# minimal fix over narrowing the arcs back to their pre-edge-to-edge widths and
+# over restoring the smaller disc wholesale.
 T 3e8948
 O 265c42
 G 63c74d
@@ -17,8 +23,8 @@ TGGGGGGGGGGGGGGT
 OGGGGKKKKKKGGGGO
 OGGGKGGGGGGKGGGO
 OGGGGGGGGGGGGGGO
-.OGGGGGKKKKGGGO.
-.OGGGGKGGGGKGGO.
+.OGGGGKKKKGGGGO.
+.OGGGKGGGGKGGGO.
 ..OGGGGGGGGGGO..
 ...OOSSSSSSOO...
 .....OOOOOO.....
