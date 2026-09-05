@@ -1,0 +1,39 @@
+# brave-browser: the Brave lion head. The silhouette is the mane, a narrow tuft on top,
+# shoulders that jump wide two rows down and a chin that tapers to a point, traced from
+# the shipped product_logo_256.png rather than invented.
+#
+# The white is the whole point of this logo and it is not a face full of detail, it is a
+# big T. A brow band straight across, a 2px nose bridge running down the middle, two
+# orange notches left and right of it as the eyes, and a separate white diamond at the
+# bottom as the muzzle. On top of that the brow ends run three rows down the outer sides
+# and step inward, which is what the original does and what Nikola asked for.
+#
+# Colour is a new extra.hex ramp, ff8a4c / fb4d0d / a32f0a. Brave is #ff4f01, and Endesga's
+# f77622 is both yellower and the exact face colour of places/folder, so reusing it would
+# have put two orange blocks next to each other in the panel.
+#
+# Rejected: a plain silhouette with no mask (reads as a shield, not a lion), masks derived
+# automatically by thresholding the downscaled logo (asymmetric, read as a V), a two row
+# brow (crushes the nose bridge at 16px), brow ends hanging outward (noisy at 16px), and
+# white pulled all the way around the cheeks (turns into a white border, loses the face).
+A ff8a4c
+B fb4d0d
+C ffffff
+D a32f0a
+E 181425
+......BAAB......
+..BBBBABBABBBB..
+.BAAAABBBBAAAAB.
+BABCCCCCCCCCCBAB
+DBBCBBCCCCBBCBBD
+DBBCBBBCCBBBCBBD
+EDBCBBBCCBBBCBDE
+.EBCBBBCCBBBCBE.
+.EDBBBBCCBBBBDE.
+..EBBBBBBBBBBE..
+..EDBBCCCCBBDE..
+...EDBCCCCBDE...
+....EDBCCBDE....
+.....EDBBDE.....
+......EDDE......
+.......EE.......

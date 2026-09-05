@@ -15,3 +15,6 @@ places org.kde.dolphin system-file-manager
 places file-manager system-file-manager
 apps mozilla-thunderbird thunderbird
 apps org.mozilla.Thunderbird thunderbird
+apps brave brave-browser
+apps com.brave.Browser brave-browser
+apps brave-browser-stable brave-browser
