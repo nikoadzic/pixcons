@@ -1,0 +1,25 @@
+[Icon Theme]
+Name=Pixcons
+Comment=Hand-made icons layered on top of Breeze Dark
+Inherits=breeze-dark,breeze,hicolor
+Example=folder
+Directories=apps/48,places/48,actions/22
+
+[apps/48]
+Size=48
+Type=Scalable
+MinSize=16
+MaxSize=512
+Context=Applications
+
+[places/48]
+Size=48
+Type=Scalable
+MinSize=16
+MaxSize=512
+Context=Places
+
+[actions/22]
+Size=22
+Type=Fixed
+Context=Actions

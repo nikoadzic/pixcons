@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- App icon template. Canvas 48x48. Keep artwork inside the 44x44 rounded square. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="#3daee9"/>
+  <circle cx="24" cy="24" r="10" fill="#fcfcfc"/>
+</svg>

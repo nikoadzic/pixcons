@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Monochrome action icon template. Canvas 22x22, 1px safe margin.
+     The ColorScheme-Text class lets Plasma recolor it for light and dark themes. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#eff0f1; }</style>
+  </defs>
+  <path class="ColorScheme-Text" fill="currentColor" d="M3 3h16v16H3zm2 2v12h12V5z"/>
+</svg>
