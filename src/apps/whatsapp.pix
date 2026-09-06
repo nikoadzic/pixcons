@@ -1,0 +1,32 @@
+# WhatsApp. Drawn by Nikola. A speech bubble filling the canvas with a spike tail off the
+# lower left, holding two message lines, the top one long and the lower one short so it
+# reads as text rather than as a pattern.
+#
+# Emerald ramp, brand 25d366 with 5fe98f as the top light row and 0f7a44 as the outline.
+# Endesga's green was not usable, 63c74d and 3e8948 are Spotify's exact fills and the two
+# sit next to each other in the panel.
+#
+# Claude first drew the handset from the real mark here. It turned into a plain diagonal
+# slash at 16 px, so Nikola replaced it with the message lines, which stay crisp. The cost
+# is that nothing WhatsApp specific is left, so Signal, Telegram or Element would all want
+# this same picture and need another way to tell themselves apart.
+A 25d366
+B 5fe98f
+C 0f7a44
+D ffffff
+....AAAAAAAA....
+..AABBBBBBBBAA..
+.CBBBBBBBBBBBBC.
+CAAAAAAAAAAAAAAC
+CAAAAAAAAAAAAAAC
+CAADDDDDDDDDDAAC
+CAAAAAAAAAAAAAAC
+CAAAAAAAAAAAAAAC
+CAADDDDDDDAAAAAC
+CAAAAAAAAAAAAAAC
+CAAAAAAAAAAAAAC.
+.CAAAACCCCCCCC..
+.CAAAC..........
+.CAAC...........
+.CAC............
+..C.............

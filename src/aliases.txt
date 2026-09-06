@@ -18,3 +18,6 @@ apps org.mozilla.Thunderbird thunderbird
 apps brave brave-browser
 apps com.brave.Browser brave-browser
 apps brave-browser-stable brave-browser
+apps brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default whatsapp
+apps whatsapp-web whatsapp
+apps com.whatsapp.WhatsApp whatsapp
