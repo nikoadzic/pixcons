@@ -87,6 +87,9 @@ def main():
                     help="a .hex file or a directory of them, default palette/")
     ap.add_argument("--svg", type=Path, help="directory to write <name>.svg into")
     ap.add_argument("--preview", type=Path, help="directory to write <name>.png previews into")
+    ap.add_argument("--edit", type=Path,
+                    help="directory to write 1:1 transparent PNGs into, to draw on in a "
+                         "pixel editor and read back with png2pix.py")
     ap.add_argument("--scale", type=int, default=8)
     ap.add_argument("--bg", default="#2a2e32", help="preview background, default Breeze Dark window")
     args = ap.parse_args()
@@ -102,6 +105,9 @@ def main():
         if args.preview:
             args.preview.mkdir(parents=True, exist_ok=True)
             to_png(rows, legend, size, args.scale, args.bg, args.preview / f"{src.stem}.png")
+        if args.edit:
+            args.edit.mkdir(parents=True, exist_ok=True)
+            to_png(rows, legend, size, 1, (0, 0, 0, 0), args.edit / f"{src.stem}.png")
         print(f"{src.name}: {size}x{size}, {len([c for c in legend.values() if c])} colors")
 
 

@@ -5,6 +5,7 @@
 #        scripts/build.sh --preview  also write zoomed PNGs to preview/<context>/
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
+python3 scripts/mkpalette.py
 for dir in src/*/; do
   ctx="$(basename "$dir")"
   files=(src/"$ctx"/*.pix)

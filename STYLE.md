@@ -56,7 +56,10 @@ a new ramp in `extra.hex` rather than a one-off. Discord's blurple was the first
 
 ## Workflow
 
-1. Copy `templates/icon.pix` to `src/<context>/<name>.pix` and draw.
+1. Copy `templates/icon.pix` to `src/<context>/<name>.pix` and draw, either by editing the
+   text grid directly or in a pixel editor. For the editor route export the canvas with
+   `scripts/pixbuild.py <file> --edit <dir>`, draw on the 1:1 PNG with `palette/pixcons.gpl`
+   loaded, then read it back with `scripts/png2pix.py <png> -o <file>`.
 2. Run `scripts/build.sh --preview` and look at `preview/<context>/<name>.png`.
 3. Reload Plasma's icon cache to see it live:
    `rm ~/.cache/icon-cache.kcache && kquitapp5 plasmashell && kstart5 plasmashell`
