@@ -2,29 +2,34 @@
 # outline one step darker on the upper half, two steps darker on the lower
 # half, one shade row at the bottom.
 #
+# The 25d366 highlight along the top was drawn by Nikola and crosses ramps on purpose.
+# 63c74d is already the lightest step of the Endesga green, so there is no lighter step
+# to shade with, and the emerald ramp added for whatsapp supplies one. That does mean
+# 25d366 now appears in spotify, whatsapp and one slack arm.
+#
 # The bottom arc used to sit one pixel right of centre, left over from the
 # edge-to-edge pass that widened the disc and dragged the arcs along with it.
 # All three arcs are now centred on the same axis as the disc. Nikola chose this
 # minimal fix over narrowing the arcs back to their pre-edge-to-edge widths and
 # over restoring the smaller disc wholesale.
-T 3e8948
-O 265c42
-G 63c74d
-K 181425
-S 3e8948
-.....TTTTTT.....
-...TTGGGGGGTT...
-..TGGGGGGGGGGT..
-.TGGGGGGGGGGGGT.
-.TGGGGGGGGGGGGT.
-TGGGKKKKKKKKGGGT
-TGGKGGGGGGGGKGGT
-TGGGGGGGGGGGGGGT
-OGGGGKKKKKKGGGGO
-OGGGKGGGGGGKGGGO
-OGGGGGGGGGGGGGGO
-.OGGGGKKKKGGGGO.
-.OGGGKGGGGKGGGO.
-..OGGGGGGGGGGO..
-...OOSSSSSSOO...
-.....OOOOOO.....
+A 3e8948
+B 25d366
+C 63c74d
+D 181425
+E 265c42
+.....AAAAAA.....
+...AABBBBBBAA...
+..ABBCCCCCCBBA..
+.ACCCCCCCCCCCCA.
+.ACCCDDDDDDCCCA.
+ACCCDCCCCCCDCCCA
+ACCDCCCCCCCCDCCA
+ACCCCCDDDDCCCCCA
+ECCCCDCCCCDCCCCE
+ECCCDCCCCCCDCCCE
+ECCCCCCDDCCCCCCE
+.ECCCCDCCDCCCCE.
+.ECCCDCCCCDCCCE.
+..ECCCCCCCCCCE..
+...EEAAAAAAEE...
+.....EEEEEE.....
