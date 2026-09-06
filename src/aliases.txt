@@ -21,3 +21,5 @@ apps brave-browser-stable brave-browser
 apps brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default whatsapp
 apps whatsapp-web whatsapp
 apps com.whatsapp.WhatsApp whatsapp
+apps slack com.slack.Slack
+apps slack-desktop com.slack.Slack

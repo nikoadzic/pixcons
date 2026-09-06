@@ -1,0 +1,49 @@
+# Slack. Geometry taken off Slack's own SVG, the one the flatpak ships at
+# /var/lib/flatpak/exports/share/icons/hicolor/scalable/apps/com.slack.Slack.svg, after an
+# earlier version drawn from memory had every bar on the wrong axis.
+#
+# Each colour is a bar plus a knob set perpendicular to it. Blue runs left across the top
+# left with its knob above, green runs up the top right with its knob to the right, yellow
+# runs right along the bottom right with its knob below, red runs down the bottom left with
+# its knob to the left. The shape is exactly 4-fold symmetric, every arm maps onto the next
+# under a 90 degree turn.
+#
+# Proportions come straight from the original. Its bars are 63 units of a 300 unit mark,
+# which is 2.9 px here, so 3 px bars with blocks at 4..6 and 9..11 and the centre cross at
+# 7..8 is the honest translation rather than a guess.
+#
+# The centre cross is filled white instead of left open. The knobs are what make that work,
+# they close the cross off, and without them it runs out to the border and the outline rule
+# puts four stray c0cbdc pixels at its ends. A white fill is also not a hole, so the outline
+# does not eat into it and the cross keeps the width it is drawn at.
+#
+# Colours are the nearest ramp steps to the brand, 2ce8f5, 25d366, feae34 and e43b44, each
+# outlined with its own darker step. Every one except the red is already another icon's
+# fill, cyan is vscode, green is whatsapp, yellow is folder. Deliberate exception to the
+# collision rule, since Slack is the only multicoloured icon in the set and the combination
+# identifies it even though no single arm does.
+A 2ce8f5
+B 25d366
+C feae34
+D e43b44
+E ffffff
+F 0099db
+G 0f7a44
+H f77622
+I a22633
+....FFF..GGG....
+...FAAAFGBBBG...
+...FAAAFGBBBG...
+.FFFAAAFGBBBGGG.
+FAAAAAAEEBBBBBBG
+FAAAAAAEEBBBBBBG
+FAAAAAAEEBBBBBBG
+.FFFEEEEEEEEGGG.
+.IIIEEEEEEEEHHH.
+IDDDDDDEECCCCCCH
+IDDDDDDEECCCCCCH
+IDDDDDDEECCCCCCH
+.IIIDDDIHCCCHHH.
+...IDDDIHCCCH...
+...IDDDIHCCCH...
+....III..HHH....
